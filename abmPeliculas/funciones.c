@@ -10,40 +10,10 @@
  int getOpcion(int opc)
     {
         int op;
-        printf( "     MENU PRINCIPAL\nIngrese la opcion que desee: \n1. Altas peliculas\n2. Modificar datos\n3. Baja pelicula\n4. Nuevo director\n5. Eliminar director\n6. Informar\n6. Listar");
+        printf( "     MENU PRINCIPAL\nIngrese la opcion que desee: \n1. Altas peliculas\n2. Modificar datos\n3. Baja pelicula\n4. Nuevo director\n5. Eliminar director\n6. Informar\n7. Listar");
         scanf("%d", &op);
         return op;
     }
-void iniciarDatosArray(ePeliculas arrayPeli[], int cantElementos, int valor)
-{
-    int i;
-    for (i = 0 ; i< cantElementos ; i ++)
-    {
-        arrayPeli[i].flag_estado = valor;
-    }
-}
-
-
-int buscarPrimerOcurrencia(ePeliculas arrayPeli[], int cantElementos, int valor)
-{
-    int i;
-    for (i = 0 ; i< cantElementos ; i ++)
-    {
-        if ((arrayPeli[i].flag_estado == VACIO || arrayPeli[i].flag_estado == BORRADO)&& valor == -1)
-        {
-            return i;
-        }
-        else
-        {
-            if(valor == arrayPeli[i].id_peliculas && arrayPeli[i].flag_estado == OCUPADO)//busco  que exista el id que le paso  por parametro (valor)
-            {
-                return i;
-            }
-        }
-    }
-    return LLENO;
-}
-
 
 void obtenerDatosPorTeclado( char mensaje[], char input[])
 {

@@ -34,6 +34,15 @@
 		<Unit filename="funciones.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="funciones_directores.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="funciones_fecha.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="funciones_peliculas.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="headers.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />

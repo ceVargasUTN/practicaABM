@@ -12,16 +12,31 @@
 	<stdlib.h>
 	"headers.h"
 
-1475729264 source:c:\users\carlaeliana\desktop\repoeli-master\abmpli\abmpeliculas\funciones.c
+1475794614 source:c:\users\carlaeliana\desktop\repoeli-master\abmpli\abmpeliculas\funciones.c
 	<stdio.h>
 	<stdlib.h>
 	"headers.h"
 
-1475728856 c:\users\carlaeliana\desktop\repoeli-master\abmpli\abmpeliculas\headers.h
+1475864035 c:\users\carlaeliana\desktop\repoeli-master\abmpli\abmpeliculas\headers.h
 
-1475728819 source:c:\users\carlaeliana\desktop\repoeli-master\abmpli\abmpeliculas\main.c
+1475864544 source:c:\users\carlaeliana\desktop\repoeli-master\abmpli\abmpeliculas\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+	"headers.h"
+
+1475864343 source:c:\users\carlaeliana\desktop\repoeli-master\abmpli\abmpeliculas\funciones_directores.c
+	<stdio.h>
+	<stdlib.h>
+	"headers.h"
+
+1475799847 source:c:\users\carlaeliana\desktop\repoeli-master\abmpli\abmpeliculas\funciones_peliculas.c
+	<stdio.h>
+	<stdlib.h>
+	"headers.h"
+
+1475794614 source:c:\users\carlaeliana\desktop\repoeli-master\abmpli\abmpeliculas\funciones_fecha.c
+	<stdio.h>
+	<stdlib.h>
 	"headers.h"
 
